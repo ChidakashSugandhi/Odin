@@ -52,3 +52,11 @@ blackPink.appendChild(blackPinkH1);
 blackPink.appendChild(blackPinkP)
 
 container.appendChild(blackPink);
+
+
+const btn = document.querySelector(".btn")
+
+btn.addEventListener("click", function (e) {
+    console.log(e);
+  });
+  
